@@ -1,0 +1,22 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  grid-auto-rows: 200px;
+  grid-template-areas:
+    ". a a ."
+    ". a a .";
+}
+.item1 {
+  grid-area: a;
+  align-self: center;
+  justify-self: center;
+  gap: 50px;
+}
+
+.inbx {
+  color: #fff;
+  background: #2d2d2d;
+  padding: 12px;
+  display: inline-block;
+}
